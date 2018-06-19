@@ -1,0 +1,38 @@
+// *{
+// 	margin: 0;
+// 	padding: 0;
+// 	box-sizing: border-box;
+// 	font-family: sans-serif;
+// }
+
+// main{
+// 	width: 100%;
+// }
+
+.content-menu{
+	width: 100px;
+	background: #161616;
+	// height: 100vh;
+}
+
+.content-menu li{
+	list-style: none;
+	padding: 16px;
+	text-align: center;
+	color: white;
+}
+
+.content-menu li:hover{
+	transform: translateY(10px);
+	background: rgba(0,0,0,0.4);
+}
+
+.content-menu li span{
+	font-size: 30px;
+}
+
+.content-menu li h4{
+	font-weight: 100;
+	font-size: 16px;
+	transform: translateY(10px) ;
+}
